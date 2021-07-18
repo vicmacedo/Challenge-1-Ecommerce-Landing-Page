@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="styles/global.css" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+
+        <title>BLACK FRIDAY</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <ul>
+                    <li>
+                        <a href="#"><img src="assets/credit-card.svg" alt="Pagamento">Pagamento</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/map.svg" alt="Nossas lojas">Nossas Lojas</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/user.svg" alt="Atendimento">Atendimento</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/change.svg" alt="Troca Fácil">Troca Fácil</a>
+                    </li>
+                </ul>
+
+                <div class="login">
+                    <a href="">Entre ou cadastre-se</a>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <div class="nav-bottom">
+                    <ul>
+                        <li><a href="#">NOVIDADES</a></li>
+                        <li><a href="#">FEMININO</a></li>
+                        <li><a href="#">MASCULINO</a></li>
+                        <li><a href="#">INFANTIL</a></li>
+                        <li><a href="#">PERFUMARIA & COSMÉTICOS</a></li>
+                        <li><a href="#">CALÇADOS</a></li>
+                        <li><a href="#">OFERTAS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+<!-----------------------------------Landing Page--------------------------------->
+        <section class="section">
+            <div class="left">
+                <div class="title-text">BLACK <span>FRIDAY</span></div>
+                <div class="medium-text" id="countdown"></div>
+                <p class="medium-text">A Black Friday acontece só em Novembro, mas enquanto ela não chega, confira nossas
+                    melhores ofertas em moda feminina, masculina e infantil.</p>
+            </div>
+
+            <div class="right">
+                <h1 class="medium-text">Cadastre-se e receba as novidades e promoções da Black Friday 2021.</h1>
+                <form method="post" class="form-wrapper">
+                    <label for="nome" class="sr-only">Digite seu nome</label>
+                    <input type="text" class="input" id="nome" name="nome" placeholder="Digite seu nome">
+
+                    <label for="email" class="sr-only">Digite seu e-mail</label>
+                    <input type="email" class="input" id="email" name="email"  placeholder="Digite seu e-mail">
+
+                    <div class="input-radio">
+                        <label for="female">Mulher</label>
+                        <input type="radio" value="Feminino" name="sexo" id="feminino">
+
+                        <label for="male">Homem</label>
+                        <input type="radio" value="Masculino" name="sexo" id="masculino">
+                    </div>
+
+                    <button type="button" class="button" onclick="saveData()">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+<!-----------------------------------Footert--------------------------------->
+        <footer class="footer">
+            <div>
+                <ul>
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Acompanhe seu pedido</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>                    
+                    <li><a href="#">Sustentabilidade</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="assets/pinterest.svg" alt="Pinterest"></a>
+                <a href="#"><img src="assets/youtube.svg" alt="YouTube"></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+      
+    </body>
+</html>

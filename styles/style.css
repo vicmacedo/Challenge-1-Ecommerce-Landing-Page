@@ -1,0 +1,95 @@
+.header .header-top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);   
+    padding-top: 0.5rem; 
+    
+}
+
+.header .header-top ul{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    list-style: none; 
+}
+.header .header-top img{
+    margin-right: 0.5rem;
+}
+
+.header .header-top .login{
+    text-align: right;   
+    margin-left: 5rem;
+}
+
+.header .header-top .login a{
+    color: var(--red);
+    font-size: 1.6rem;
+}
+
+.header .navigation{
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.navigation .nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .nav-bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; 
+    width: 80%;   
+}
+
+.section .left .title-text{
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 10rem;
+    color: var(--light-gray);
+}
+
+.section .left .medium-text{
+    margin: 6rem 0;
+}
+
+.section .left span{
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 10rem;
+    color: var(--red);
+}
+
+.section .right .medium-text{
+    margin-bottom: 4rem;
+}
+
+::-webkit-input-placeholder{
+    color: var(--light-gray); 
+}
+
+.section .right .input-radio input{
+    margin-right: 2rem;
+}
+
+.section .right .input-radio label{
+    margin-right: 0.5rem;
+}
+
+.footer ul{
+    list-style: none;   
+}
+
+.footer .contact img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+}

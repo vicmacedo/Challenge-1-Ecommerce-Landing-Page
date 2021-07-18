@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --font-default: 'Oswald', sans-serif;
+    --black:#191919;
+    --light-gray:#e5e5e5;
+    --red:#D51C48;
+
+    font-size: 62.5%; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;   
+}
+
+body{
+    font: var(--font-default); 
+    max-width: 100%;
+    font-family: var(--font-default);
+    text-decoration: none; 
+}
+
+.header{
+    padding: 0 15rem 0 15rem;
+    background-color: var(--light-gray); 
+    width: 100%; 
+}
+
+a{
+    text-decoration: none; 
+    color: var(--black);
+    font-size: 1.6rem ; 
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 6rem 15rem;
+    background-color: var(--black);
+    text-align: center;    
+}
+
+.left{
+    width: 50vw;
+    padding: 4rem 4rem 0 4rem; 
+}
+
+.right{
+    width: 50vw;   
+    padding: 4rem 4rem 0 4rem; 
+   
+}
+
+.medium-text{
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: var(--light-gray);
+}
+
+.sub-text{
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    color: var(--light-gray);
+}
+
+.input{
+    width: 70%;
+    height: 4rem;
+    background-color: var(--black);
+    margin-bottom: 2rem;
+    border: solid 0.1rem var(--light-gray);
+    outline: none;
+    border-radius: 0.4rem;
+    color: var(--light-gray);
+    padding-left: 0.5rem;
+}
+
+.input-radio{
+    margin: 3rem 0 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    color: var(--light-gray);
+}
+
+.button{
+    width: 70%;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 0.4rem;
+    height: 5rem;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: var(--font-default);
+    color: var(--black); 
+    margin-bottom: 5rem;   
+}
+
+.button:hover{
+    color: var(--red);
+    transition: color 0.3s;
+}
+
+.footer{
+    padding: 8rem 25rem 8rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-gray);
+    
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
