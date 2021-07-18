@@ -4,4 +4,4 @@ O primeiro desafio de Bootcamp Hiring Coders by VTEX foi desenvolver uma Landing
 
 
 
-![](C:\Users\vitor\Desktop\Desafio #1 - Ecommerce\landing-page.PNG)
+![landing-page](C:\Users\vitor\Desktop\Front-End\Gama Academy\Desafio #1 Black Friday - Ecommerce\landing-page.JPG)
